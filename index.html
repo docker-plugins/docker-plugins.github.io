@@ -32,33 +32,46 @@
 
     <section class="cinema">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/k6r7yuSr0hE" frameborder="0" allowfullscreen></iframe>
+
+      <h3>Learn More</h3>
+        <a class="btn" href="#">
+          Flocker plugin info
+        </a>
+        &nbsp;
+        <a class="btn" href="#">
+          Weave plugin info
+        </a>
+        &nbsp;
+        <a class="btn" href="#try">
+          Try it yourself now!
+        </a>
+
     </section>
 
-    <section class="main-content">
+    <section class="main-content" id="try">
 
+      <p style="font-size: larger;">
+        There two way to reproduce the demo, it's quickest to use our infrastructure (it will take literally few minutes to spin up),
+        but you might wish to recreate it on your own using Vagrant also.
+      </p>
 
-      <h3>Here are some experimental demos using Flocker and Weave as Docker plugins with Docker Swarm and Docker Compose</h3>
-
-      <p>This website and repo will allow you to play with a Vagrant cluster in the following configuration.</p>
+      <p style="font-size: larger;">
+        ClusterHQ and Weaveworks are proud to have worked closely with the Docker core team to deliver plugins
+        functionality in Docker engine.
+      </p>
 
       <p>
-        <h4>Using the Magic Cloud</h4>
+        <h3>Using the Magic Cloud</h3>
         <strong>Prerequisites:</strong> <em>none</em>
         CLICK HERE
       </p>
       <p>
-        <h4>Using Vagrant and VirtualBox</h4>
+        <h3>Using Vagrant and VirtualBox</h3>
         <strong>Prerequisites:</strong> <em>Vagrant 1.7.2</em>
-        <ul>
-            <li><a href="http://www.vagrantup.com/downloads.html">Vagrant 1.7.2</a></li>
-        </ul>
         <pre><code>$ git clone https://github.com/plugins-demo-2015/demo</br>$ cd demo</br>$ make -C vagrantrunner</code></pre>
       </p>
 
-      <h3>Who's behind this?</h3>
-
       <p>This repo and landing page has been put together as a joint project by the nice folks at ClusterHQ and Weaveworks.</p>
-      <p>In terms of building the Docker plugin functionality, we are proud to have worked closely with the Docker core team to build the first ever Docker plugins.</p>
 
       <h3>FAQs</h3>
 
